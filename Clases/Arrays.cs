@@ -63,7 +63,7 @@ namespace EjerciciosArrays_JSVE.Clases
                 arreglos[i] = numero * (i + 1);
             }
             Console.WriteLine("Los multiplos son");
-            for (int i = 0; i < numero; i++)
+            for (int i = 0; i < tamaño; i++)
             {
                 Console.WriteLine(arreglos[i]);
             }
